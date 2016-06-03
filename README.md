@@ -10,13 +10,15 @@ Les données d'entrées comprennent :
 5)	Coordonnée x de destination (x-d) ;
 6)	 Coordonnée y de destination (y_d).
 
-Le fichier contenant les données d’entrées (filename) est un fichier texte. Chaque ligne du fichier décrit une ligne de désir : ID FEX x_o y_o x_d y_d
+Le fichier contenant les données d’entrées (filename) est un fichier texte. Chaque ligne du fichier décrit une ligne de désir : 
+ID FEX x_o y_o x_d y_d
 
 Les données de sortie sont récapitulées dans deux fichiers : 
   1) un fichier contenant l'ensemble des corridors identifiés. Ces corridors peuvent être facilement visualisés dans un logiciel tel que QGIS) ;
   2) un fichier reliant chaque corridor aux lignes de désir associées.
   
-Le logiciel est écrit en python. Il est exécutable à partir de la ligne de commande où Python est installé comme : python Traclus_DL.py filename max_distance min_density angle_max segment_length
+Le logiciel est écrit en python. Il est exécutable à partir de la ligne de commande où Python est installé comme : 
+python Traclus_DL.py filename max_distance min_density angle_max segment_length
 
 Plus de détails sur les paramètres d'entrées et le programme sont disponible dans : 
 Bahbouh, K., Wagner, J. R., Morency, C., & Berdier, C. (2015). TraClus-DL: A Desire Line Clustering Framework to Identify Demand Corridors. In Transportation Research Board 94th Annual Meeting (No. 15-3508).
