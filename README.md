@@ -1,6 +1,6 @@
 # traclus_dl
 
-TraClus_DL est un programme qui permet d'identifier les corridors à partires des données origine-destination (lignes de désir), TraClus-DL inspiré du programme Traclus (Clustering Trajectoire, publié par Lee et al en 2007).
+TraClus_DL est un programme qui permet d'identifier les corridors à partires des données origine-destination (lignes de désir), TraClus-DL est inspiré du programme Traclus (Clustering Trajectoire, publié par Lee et al en 2007).
 
 Les données d'entrées comprennent : 
 1)	Identification unique pour chaque ligne de désir (ID), 
